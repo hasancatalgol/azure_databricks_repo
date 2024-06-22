@@ -1,0 +1,9 @@
+{
+	"name": "databricks-training-df",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b5cced93-e7af-4eb0-abc1-1489f01f2b3c",
+		"tenantId": "e6f54364-7c55-43c8-918a-84143acfe7ad"
+	}
+}
