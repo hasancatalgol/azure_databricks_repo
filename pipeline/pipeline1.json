@@ -72,7 +72,8 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
-					"message": "Circuits_df_has_failed"
+					"message": "Circuits_df_has_failed",
+					"errorCode": "666"
 				}
 			}
 		],
