@@ -1,0 +1,20 @@
+{
+	"name": "circuits_demo_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "formula1_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "circuits_demo",
+				"fileSystem": "demo"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
