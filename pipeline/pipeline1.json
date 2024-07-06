@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "CSVBUMBUM",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -60,11 +60,11 @@
 				]
 			},
 			{
-				"name": "Fail1",
+				"name": "KOCAMANBIRHATA",
 				"type": "Fail",
 				"dependsOn": [
 					{
-						"activity": "Copy data1",
+						"activity": "CSVBUMBUM",
 						"dependencyConditions": [
 							"Failed"
 						]
