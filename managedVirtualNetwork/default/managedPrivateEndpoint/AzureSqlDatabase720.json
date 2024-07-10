@@ -1,0 +1,7 @@
+{
+	"name": "AzureSqlDatabase720",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/fcabc251-87e8-4d92-ae25-3b93a086675f/resourceGroups/training-dataengineering-rg/providers/Microsoft.Sql/servers/hasanc-test-server",
+		"groupId": "sqlServer"
+	}
+}
