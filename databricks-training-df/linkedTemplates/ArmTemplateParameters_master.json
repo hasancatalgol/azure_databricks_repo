@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "databricks-training-df"
+		},
+		"formula1_ls_accountKey": {
+			"value": ""
+		},
+		"hasanctestazuredbls_password": {
+			"value": ""
+		},
+		"hasanctestazuredblegacyls_password": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://hasanc-databricks-kv.vault.azure.net/"
+		},
+		"formula1_ls_properties_typeProperties_url": {
+			"value": "https://dbformula1dldldl.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase720_properties_privateLinkResourceId": {
+			"value": "/subscriptions/fcabc251-87e8-4d92-ae25-3b93a086675f/resourceGroups/training-dataengineering-rg/providers/Microsoft.Sql/servers/hasanc-test-server"
+		},
+		"AzureSqlDatabase720_properties_groupId": {
+			"value": "sqlServer"
+		},
+		"hasanctestazuredbls_properties_typeProperties_server": {
+			"value": "hasanc-test-server.database.windows.net"
+		},
+		"hasanctestazuredbls_properties_typeProperties_database": {
+			"value": "hasanc-test-azuredb"
+		},
+		"hasanctestazuredbls_properties_typeProperties_userName": {
+			"value": "hasanc"
+		},
+		"hasanctestazuredblegacyls_properties_typeProperties_server": {
+			"value": "hasanc-test-server.database.windows.net"
+		},
+		"hasanctestazuredblegacyls_properties_typeProperties_database": {
+			"value": "hasanc-test-azuredb"
+		},
+		"hasanctestazuredblegacyls_properties_typeProperties_userName": {
+			"value": "hasanc"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
