@@ -6,7 +6,7 @@
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
 			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=hasanc-test-server.database.windows.net;initial catalog=hasanc-test-azuredb;user id=hasanc",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE0NEU0RkVBLTQ2MEUtNDI3NC1BREFFLTlFQzZCMkNCMUE1Ql9jOWY5YzA0MC0zNzZjLTQyYjgtOTVhMy1hYzAyNmRlMDRjZjIiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE0NEU0RkVBLTQ2MEUtNDI3NC1BREFFLTlFQzZCMkNCMUE1Ql9hYWM2ZGQ3Yy1mYmM3LTQ3YzQtODZiYi1mYjBkZTg2Y2YxNTgiDQp9"
 		},
 		"connectVia": {
 			"referenceName": "ManagedIR",
