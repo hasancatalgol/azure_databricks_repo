@@ -2,7 +2,7 @@
 	"name": "dboTargetOrdersls",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "hasanctestazuredbls",
+			"referenceName": "hasanctestazuredblegacyls",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
