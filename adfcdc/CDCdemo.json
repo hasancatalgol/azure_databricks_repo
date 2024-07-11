@@ -85,6 +85,28 @@
 								{
 									"name": "tableName",
 									"value": "TargetOrders"
+								},
+								{
+									"name": "keys",
+									"value": [
+										"OrderDate"
+									]
+								},
+								{
+									"name": "deletable",
+									"value": true
+								},
+								{
+									"name": "updateable",
+									"value": true
+								},
+								{
+									"name": "upsertable",
+									"value": true
+								},
+								{
+									"name": "defaultToUpsert",
+									"value": true
 								}
 							]
 						}
