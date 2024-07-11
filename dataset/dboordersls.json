@@ -2,7 +2,7 @@
 	"name": "dboordersls",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "hasanctestazuredbls",
+			"referenceName": "hasanctestazuredblegacyls",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -32,10 +32,6 @@
 				"name": "Status",
 				"type": "varchar"
 			}
-		],
-		"typeProperties": {
-			"schema": "dbo",
-			"table": "Orders"
-		}
+		]
 	}
 }
